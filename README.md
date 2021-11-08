@@ -1,5 +1,5 @@
-# Visual-Inertial-Odometry
-In this project we implement the pipeline for Visual Odometry (VO) from scratch on the Oxford dataset given, and compare it with the implementation using OpenCV built-in functions.
+# Visual Odometry Implementation
+In this project, we implement a Visual Odometry (VO) pipeline from scratch and compare it with the an implementation utilizing OpenCV built-in functions on the Oxford dataset.
 
 
 ## DEPENDENCIES: 
@@ -11,21 +11,24 @@ In this project we implement the pipeline for Visual Odometry (VO) from scratch 
 
 ## Authors
 
+- [Praveen](https://github.com/Praveen1098)
 - [Arjun Srinivasan](https://github.com/aarjunsrinivasan)
 - [Arun Kumar](https://github.com/akdhandy)
-- [Praveen](https://github.com/Praveen1098)
 
 ## INSTRUCTION:
 
-- Run the python files in the current directory which contains all the codes.
+- Run the Python scripts corresponding to the custom implementation and implementation with OpenCV built-in functions individually in the current directory which contains all the code.
 
-- Two python scripts namely:
-cvvom - which uses inbuilt CV functions to solve the Visual Odometry problem
-myvom - which uses our own implementation of functions to solve. 
+- Python scripts :
+    - VO_OpenCV - uses built-in OpenCV functions to solve the Visual Odometry problem
+    - VO_Custom - uses our own implementation of functions to solve the Visual Odometry problem
 
-- Place the relative path of the images and the model in both the python scripts cvvom and myvom and run:
-pathimage="/home/arjun/Desktop/VOM/Oxford_dataset/stereo/centre/"
-pathmodel="/home/arjun/Desktop/VOM/Oxford_dataset/model/".
+- Place the relative path of the images and the model in both the python scripts and run:
 
-For working video follow this link: 
-https://youtu.be/ZFXpE-CA9As
+      ------------------------------------------------------------------
+        pathimage="/home/arjun/Desktop/VOM/Oxford_dataset/stereo/centre/"
+        pathmodel="/home/arjun/Desktop/VOM/Oxford_dataset/model/".
+      ------------------------------------------------------------------
+
+## Demo: 
+- https://youtu.be/ZFXpE-CA9As
